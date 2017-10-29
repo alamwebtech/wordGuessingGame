@@ -1,0 +1,107 @@
+html body {
+  text-align: center;
+  /*background-color: black;*/
+  background-image: url(dark.png);
+
+}
+
+html {
+  height: 100%;
+}
+
+#btn {
+  padding-top: 100px;
+}
+
+#hint{
+  color: gold;
+  font-size: 1.5em;
+}
+
+
+
+#startBtn {
+  background: #415665;
+  height: 50px;
+  width: 500px;
+  border-radius: 15px;
+  margin: 100px auto;
+  font-size: 22px;
+  color: #fff;
+  /*border-style: hidden;*/
+}
+
+div #startBtn:before {
+  content: "";
+  position: absolute;
+  background: crimson;
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+div button:hover {
+  color: #fff;
+}
+
+div #startBtn:nth-child(1):before {
+  top: 90%;
+  left: 100%;
+  transition: all .7s;
+}
+
+div #startBtn:nth-child(1):hover:before {
+  top: -10px;
+  left: -5px;
+}
+
+div.modal-footer {
+  text-align: center;
+}
+
+div.bootbox.modal.fade.bootbox-alert.in {
+  padding-right: 90px;
+  padding-bottom: 0;
+  background-image: url(win.gif);
+  height: 80%;
+  padding-left: 20px;
+  display: block;
+}
+
+/*div.modal-dialogdiv < .bootbox.modal.fade.bootbox-alert.in  {
+background-image:url(try.gif);
+}*/
+
+html div {
+  height: 100%;
+}
+
+.modal {
+  padding-top: 10px;
+}
+
+div.modal-content {
+  margin: 20px auto;
+  padding-right: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: gold;
+  width: 300px;
+  line-height: 40px;
+  background-color: transparent;
+}
+
+div.modal-footer {
+  background-color: transparent;
+}
+
+div.modal-dialog {
+  padding-top: 10px;
+  width: 200px;
+  background-color: transparent;
+}
+
+button.bootbox-close-button.close {
+  color: blue;
+  font-size: 40px;
+}
